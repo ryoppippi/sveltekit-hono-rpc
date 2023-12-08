@@ -1,0 +1,31 @@
+{
+	"name": "@sveltehono/sveltekit",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20231121.0",
+		"@sveltehono/hono": "workspace:^",
+		"@sveltejs/adapter-auto": "^2.1.1",
+		"@sveltejs/kit": "^1.27.7",
+		"prettier": "^3.1.0",
+		"prettier-plugin-svelte": "^3.1.2",
+		"svelte": "5.0.0-next.22",
+		"svelte-check": "^3.6.2",
+		"sveltekit-superforms": "^1.11.0",
+		"tslib": "^2.6.2",
+		"typescript": "^5.3.3",
+		"typescript-svelte-plugin": "^0.3.36",
+		"vite": "^4.5.1",
+		"zod": "^3.22.4"
+	},
+	"type": "module"
+}

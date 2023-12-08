@@ -1,0 +1,24 @@
+{
+	"globalEnv": ["DB_HOST", "DB_USERNAME", "DB_PASSWORD", "NODE_ENV"],
+	"$schema": "https://turbo.build/schema.json",
+	"pipeline": {
+		"build": {
+			"dependsOn": ["sync", "^build"],
+			"outputs": ["dist/**", ".svelte-kit/**", "build/**"]
+		},
+		"sync": {
+			"outputs": [".svelte-kit/**"]
+		},
+		"lint": {},
+		"check": {},
+		"test": {
+			"dependsOn": ["build"]
+		},
+		"dev": {
+			"cache": false
+		},
+		"storybook": {
+			"cache": false
+		}
+	}
+}
