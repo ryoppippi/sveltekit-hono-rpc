@@ -25,7 +25,7 @@ importers:
         version: 3.11.3
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^4.20230914.0
+        specifier: ^4.20231121.0
         version: 4.20231121.0
       '@hono/zod-validator':
         specifier: ^0.1.11
