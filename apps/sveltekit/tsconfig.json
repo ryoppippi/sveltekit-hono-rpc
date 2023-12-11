@@ -10,6 +10,7 @@
 		"sourceMap": true,
 		"strict": true,
 		"moduleResolution": "bundler",
+		"types": ["@cloudflare/workers-types"],
 		"plugins": [
 			{
 				"name": "typescript-svelte-plugin"
