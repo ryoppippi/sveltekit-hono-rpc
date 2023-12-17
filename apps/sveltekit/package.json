@@ -18,7 +18,7 @@
 		"@sveltejs/kit": "^1.30.3",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
-		"svelte": "5.0.0-next.24",
+		"svelte": "5.0.0-next.25",
 		"svelte-check": "^3.6.2",
 		"sveltekit-superforms": "^1.11.0",
 		"tslib": "^2.6.2",
