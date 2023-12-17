@@ -64,8 +64,8 @@ importers:
         specifier: ^3.6.2
         version: 3.6.2(svelte@5.0.0-next.25)
       sveltekit-superforms:
-        specifier: ^1.11.0
-        version: 1.11.0(@sveltejs/kit@1.30.3)(svelte@5.0.0-next.25)(zod@3.22.4)
+        specifier: ^1.12.0
+        version: 1.12.0(@sveltejs/kit@1.30.3)(svelte@5.0.0-next.25)(zod@3.22.4)
       tslib:
         specifier: ^2.6.2
         version: 2.6.2
@@ -1716,10 +1716,10 @@ packages:
       zimmerframe: 1.1.0
     dev: true
 
-  /sveltekit-superforms@1.11.0(@sveltejs/kit@1.30.3)(svelte@5.0.0-next.25)(zod@3.22.4):
-    resolution: {integrity: sha512-43hhy34Eb57erD2b+3Z6A97NBQHQ+ePXmGxeOqOATd7OeI1Vo/fw+vd5yGE9w/ql8DGDUqW1LKb4D3rJXdxSYg==}
+  /sveltekit-superforms@1.12.0(@sveltejs/kit@1.30.3)(svelte@5.0.0-next.25)(zod@3.22.4):
+    resolution: {integrity: sha512-yer9YKhfWsKsDIxXahFLuGuUel32gyi96qIdxTVFAOWXZM9ZaMEP7+FL2cMYRDg6Xqlrh5SQ9oQdkVYeLNG0eA==}
     peerDependencies:
-      '@sveltejs/kit': 1.x
+      '@sveltejs/kit': 1.x || 2.x
       svelte: 3.x || 4.x
       zod: 3.x
     dependencies:
