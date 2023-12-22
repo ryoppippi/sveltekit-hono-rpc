@@ -46,8 +46,8 @@ importers:
         specifier: workspace:^
         version: link:../hono
       '@sveltejs/adapter-auto':
-        specifier: ^3.0.0
-        version: 3.0.0(@sveltejs/kit@1.30.3)
+        specifier: ^3.0.1
+        version: 3.0.1(@sveltejs/kit@1.30.3)
       '@sveltejs/kit':
         specifier: ^1.30.3
         version: 1.30.3(svelte@5.0.0-next.26)(vite@5.0.10)
@@ -749,8 +749,8 @@ packages:
     dev: true
     optional: true
 
-  /@sveltejs/adapter-auto@3.0.0(@sveltejs/kit@1.30.3):
-    resolution: {integrity: sha512-UNWSs/rOReBRfI/xFwSO2WYF1a7PT74SrWOHJmSNLY3Lq+zbH0uuvnlP+TmrTUBvOTkou3WJDjL6lK3n6aOUgQ==}
+  /@sveltejs/adapter-auto@3.0.1(@sveltejs/kit@1.30.3):
+    resolution: {integrity: sha512-OpilmvRN136lUgOa9F0zpSI6g+PouOmk+YvJQrB+/hAtllLghjjYuoyfUsrF7U6oJ52cxCtAJTPXgZdyyCffrQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
     dependencies:
