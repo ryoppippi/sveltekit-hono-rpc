@@ -25,8 +25,8 @@ importers:
         version: 3.11.8
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^4.20231121.0
-        version: 4.20231121.0
+        specifier: ^4.20231218.0
+        version: 4.20231218.0
       '@hono/zod-validator':
         specifier: ^0.1.11
         version: 0.1.11(hono@3.11.8)(zod@3.22.4)
@@ -40,8 +40,8 @@ importers:
   apps/sveltekit:
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^4.20231121.0
-        version: 4.20231121.0
+        specifier: ^4.20231218.0
+        version: 4.20231218.0
       '@sveltehono/hono':
         specifier: workspace:^
         version: link:../hono
@@ -143,8 +143,8 @@ packages:
     dev: true
     optional: true
 
-  /@cloudflare/workers-types@4.20231121.0:
-    resolution: {integrity: sha512-+kWfpCkqiepwAKXyHoE0gnkPgkLhz0/9HOBIGhHRsUvUKvhUtm3mbqqoGRWgF1qcjzrDUBbrrOq4MYHfFtc2RA==}
+  /@cloudflare/workers-types@4.20231218.0:
+    resolution: {integrity: sha512-Vs1FKjfUjXYGbCsXzkl+ITp0Iyb6QiW6+vTERTNThC+v96T0IvPVAioH4tT20rXwoxAfxh380mAaxYtTrJUNVg==}
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:
