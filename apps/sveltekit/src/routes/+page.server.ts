@@ -6,7 +6,7 @@ export const load = async ({ fetch }) => {
 
 	const res = await client.hello.$get();
 	if (!res.ok) {
-		throw error(res.status, res.statusText);
+		error(res.status, res.statusText);
 	}
 
 	const { message } = await res.json();
