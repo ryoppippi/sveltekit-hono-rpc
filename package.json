@@ -13,7 +13,7 @@
 	"keywords": [],
 	"author": "",
 	"private": true,
-	"packageManager": "pnpm@8.9.2",
+	"packageManager": "pnpm@8.13.0",
 	"engines": {
 		"npm": "use pnpm please!",
 		"yarn": "use pnpm please!"
