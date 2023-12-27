@@ -52,7 +52,7 @@ importers:
         specifier: ^2.0.6
         version: 2.0.6(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.0.0-next.26)(vite@5.0.10)
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^3.0.0
+        specifier: ^3.0.1
         version: 3.0.1(svelte@5.0.0-next.26)(vite@5.0.10)
       prettier:
         specifier: ^3.1.1
