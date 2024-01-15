@@ -64,7 +64,7 @@ importers:
         specifier: 5.0.0-next.34
         version: 5.0.0-next.34
       svelte-check:
-        specifier: ^3.6.2
+        specifier: ^3.6.3
         version: 3.6.3(svelte@5.0.0-next.34)
       sveltekit-superforms:
         specifier: ^1.13.2
