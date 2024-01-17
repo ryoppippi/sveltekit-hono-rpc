@@ -67,7 +67,7 @@ importers:
         specifier: ^3.6.3
         version: 3.6.3(svelte@5.0.0-next.35)
       sveltekit-superforms:
-        specifier: ^1.13.2
+        specifier: ^1.13.3
         version: 1.13.3(@sveltejs/kit@2.3.2)(svelte@5.0.0-next.35)(zod@3.22.4)
       tslib:
         specifier: ^2.6.2
