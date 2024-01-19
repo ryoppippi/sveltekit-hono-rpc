@@ -21,7 +21,7 @@ importers:
   apps/hono:
     dependencies:
       hono:
-        specifier: ^3.12.4
+        specifier: ^3.12.5
         version: 3.12.5
     devDependencies:
       '@cloudflare/workers-types':
