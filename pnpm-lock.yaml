@@ -31,7 +31,7 @@ importers:
         specifier: ^0.1.11
         version: 0.1.11(hono@3.12.8)(zod@3.22.4)
       wrangler:
-        specifier: ^3.24.0
+        specifier: ^3.25.0
         version: 3.25.0
       zod:
         specifier: ^3.22.4
