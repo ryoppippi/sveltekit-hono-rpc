@@ -25,14 +25,14 @@ importers:
         version: 3.12.12
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^4.20240129.0
-        version: 4.20240129.0
+        specifier: ^4.20240208.0
+        version: 4.20240208.0
       '@hono/zod-validator':
         specifier: ^0.1.11
         version: 0.1.11(hono@3.12.12)(zod@3.22.4)
       wrangler:
         specifier: ^3.28.0
-        version: 3.28.1(@cloudflare/workers-types@4.20240129.0)
+        version: 3.28.1(@cloudflare/workers-types@4.20240208.0)
       zod:
         specifier: ^3.22.4
         version: 3.22.4
@@ -40,8 +40,8 @@ importers:
   apps/sveltekit:
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^4.20240129.0
-        version: 4.20240129.0
+        specifier: ^4.20240208.0
+        version: 4.20240208.0
       '@sveltehono/hono':
         specifier: workspace:^
         version: link:../hono
@@ -146,8 +146,8 @@ packages:
     dev: true
     optional: true
 
-  /@cloudflare/workers-types@4.20240129.0:
-    resolution: {integrity: sha512-VyHbih/bqh/RN2FRxnXznG0bpBIg9RfSP1ldbAVnCXFinjOdv0zm2P/RWqOVN9+FgU5sanRltwwT7jGngxZy8w==}
+  /@cloudflare/workers-types@4.20240208.0:
+    resolution: {integrity: sha512-MVGTTjZpJu4kJONvai5SdJzWIhOJbuweVZ3goI7FNyG+JdoQH41OoB+nMhLsX626vPLZVWGPIWsiSo/WZHzgQw==}
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:
@@ -1941,7 +1941,7 @@ packages:
       '@cloudflare/workerd-windows-64': 1.20240129.0
     dev: true
 
-  /wrangler@3.28.1(@cloudflare/workers-types@4.20240129.0):
+  /wrangler@3.28.1(@cloudflare/workers-types@4.20240208.0):
     resolution: {integrity: sha512-3O8vCzd7IC71Kciu/+oDVO0VZ83ujlUuKwmCkv6/zzt4WAoYu0vk7PyEo4WvlsSbZL8aHuv3bS917rd6TM1/9Q==}
     engines: {node: '>=16.17.0'}
     hasBin: true
@@ -1952,7 +1952,7 @@ packages:
         optional: true
     dependencies:
       '@cloudflare/kv-asset-handler': 0.2.0
-      '@cloudflare/workers-types': 4.20240129.0
+      '@cloudflare/workers-types': 4.20240208.0
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
       '@esbuild-plugins/node-modules-polyfill': 0.2.2(esbuild@0.17.19)
       blake3-wasm: 2.1.5
