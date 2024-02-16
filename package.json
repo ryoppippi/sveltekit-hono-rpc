@@ -23,7 +23,7 @@
 	},
 	"devDependencies": {
 		"prettier": "^3.2.5",
-		"prettier-plugin-svelte": "^3.1.2",
+		"prettier-plugin-svelte": "^3.2.0",
 		"turbo": "^1.12.3"
 	},
 	"workspaces": [
