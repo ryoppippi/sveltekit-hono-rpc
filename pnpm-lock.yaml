@@ -12,7 +12,7 @@ importers:
         specifier: ^3.2.5
         version: 3.2.5
       prettier-plugin-svelte:
-        specifier: ^3.2.0
+        specifier: ^3.2.1
         version: 3.2.1(prettier@3.2.5)(svelte@5.0.0-next.53)
       turbo:
         specifier: ^1.12.3
@@ -58,7 +58,7 @@ importers:
         specifier: ^3.2.5
         version: 3.2.5
       prettier-plugin-svelte:
-        specifier: ^3.2.0
+        specifier: ^3.2.1
         version: 3.2.1(prettier@3.2.5)(svelte@5.0.0-next.53)
       svelte:
         specifier: 5.0.0-next.53
