@@ -67,8 +67,8 @@ importers:
         specifier: ^3.6.4
         version: 3.6.4(svelte@5.0.0-next.58)
       sveltekit-superforms:
-        specifier: ^2.2.0
-        version: 2.2.0(@sveltejs/kit@2.5.0)(@types/json-schema@7.0.15)(esbuild-runner@2.2.2)(esbuild@0.19.12)(svelte@5.0.0-next.58)
+        specifier: ^2.3.0
+        version: 2.5.0(@sveltejs/kit@2.5.0)(@types/json-schema@7.0.15)(esbuild-runner@2.2.2)(esbuild@0.19.12)(svelte@5.0.0-next.58)
       tslib:
         specifier: ^2.6.2
         version: 2.6.2
@@ -1947,8 +1947,8 @@ packages:
       zimmerframe: 1.1.2
     dev: true
 
-  /sveltekit-superforms@2.2.0(@sveltejs/kit@2.5.0)(@types/json-schema@7.0.15)(esbuild-runner@2.2.2)(esbuild@0.19.12)(svelte@5.0.0-next.58):
-    resolution: {integrity: sha512-a0oceymCqJyBnT53prNOn/wnFfrzahOsM78lk0LFrN/fhk7aV7JURiWLkPvrAwDP6QPkzc5PPHmBcK/7Qjzljw==}
+  /sveltekit-superforms@2.5.0(@sveltejs/kit@2.5.0)(@types/json-schema@7.0.15)(esbuild-runner@2.2.2)(esbuild@0.19.12)(svelte@5.0.0-next.58):
+    resolution: {integrity: sha512-mMWvmpHpq1iYyawnb8H7NZb+f79z0I81Dx1xPbOak7yIrrwR8wdFnFCCXxdLnIXVAhwhd60jAQraYHcvCaZGgQ==}
     requiresBuild: true
     peerDependencies:
       '@sveltejs/kit': 1.x || 2.x
