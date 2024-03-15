@@ -64,8 +64,8 @@ importers:
         specifier: 5.0.0-next.75
         version: 5.0.0-next.75
       svelte-check:
-        specifier: ^3.6.6
-        version: 3.6.6(svelte@5.0.0-next.75)
+        specifier: ^3.6.7
+        version: 3.6.7(svelte@5.0.0-next.75)
       sveltekit-superforms:
         specifier: ^2.9.0
         version: 2.9.0(@sveltejs/kit@2.5.3)(@types/json-schema@7.0.15)(esbuild-runner@2.2.2)(esbuild@0.20.1)(svelte@5.0.0-next.75)
@@ -2072,8 +2072,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check@3.6.6(svelte@5.0.0-next.75):
-    resolution: {integrity: sha512-b9q9rOHOMYF3U8XllK7LmXTq1LeWQ98waGfEJzrFutViadkNl1tgdEtxIQ8yuPx+VQ4l7YrknYol+0lfZocaZw==}
+  /svelte-check@3.6.7(svelte@5.0.0-next.75):
+    resolution: {integrity: sha512-tKEjemK9FYCySAseCaIt+ps5o0XRvLC7ECjyJXXtO7vOQhR9E6JavgoUbGP1PCulD2OTcB/fi9RjV3nyF1AROw==}
     hasBin: true
     peerDependencies:
       svelte: ^3.55.0 || ^4.0.0-next.0 || ^4.0.0 || ^5.0.0-next.0
