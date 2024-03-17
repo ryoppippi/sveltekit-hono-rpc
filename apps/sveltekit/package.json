@@ -19,7 +19,7 @@
 		"@sveltejs/vite-plugin-svelte": "^3.0.2",
 		"prettier": "^3.2.5",
 		"prettier-plugin-svelte": "^3.2.2",
-		"svelte": "5.0.0-next.78",
+		"svelte": "5.0.0-next.79",
 		"svelte-check": "^3.6.7",
 		"sveltekit-superforms": "^2.9.0",
 		"tslib": "^2.6.2",
