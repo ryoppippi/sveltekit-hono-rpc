@@ -67,8 +67,8 @@ importers:
         specifier: ^3.6.7
         version: 3.6.7(svelte@5.0.0-next.80)
       sveltekit-superforms:
-        specifier: ^2.9.0
-        version: 2.9.0(@sveltejs/kit@2.5.4)(@types/json-schema@7.0.15)(esbuild-runner@2.2.2)(esbuild@0.20.2)(svelte@5.0.0-next.80)
+        specifier: ^2.10.2
+        version: 2.10.6(@sveltejs/kit@2.5.4)(@types/json-schema@7.0.15)(esbuild-runner@2.2.2)(esbuild@0.20.2)(svelte@5.0.0-next.80)
       tslib:
         specifier: ^2.6.2
         version: 2.6.2
@@ -792,8 +792,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /@gcornut/valibot-json-schema@0.0.25(@types/json-schema@7.0.15)(esbuild-runner@2.2.2)(esbuild@0.20.2)(valibot@0.29.0):
-    resolution: {integrity: sha512-JlOmghA8OMM8B+3lLSWrZqce4FM5SrCO/bmYGZQz3ZYPja/mXhLYa2qEOFUsBaz24prv04un3zXIUpJzgglAkw==}
+  /@gcornut/valibot-json-schema@0.0.26(@types/json-schema@7.0.15)(esbuild-runner@2.2.2)(esbuild@0.20.2)(valibot@0.30.0):
+    resolution: {integrity: sha512-8eZpGLP1awX9UGEK+VUFiyXnjiIV/h5RPC7wt2KQG6O7YkXEw7t2pUxHhR5ULcoN0BsZ3FOWZqyzu3tFF7aXxw==}
     hasBin: true
     requiresBuild: true
     peerDependencies:
@@ -805,7 +805,7 @@ packages:
       '@types/json-schema': 7.0.15
       esbuild: 0.20.2
       esbuild-runner: 2.2.2(esbuild@0.20.2)
-      valibot: 0.29.0
+      valibot: 0.30.0
     dev: true
     optional: true
 
@@ -2186,8 +2186,8 @@ packages:
       zimmerframe: 1.1.2
     dev: true
 
-  /sveltekit-superforms@2.9.0(@sveltejs/kit@2.5.4)(@types/json-schema@7.0.15)(esbuild-runner@2.2.2)(esbuild@0.20.2)(svelte@5.0.0-next.80):
-    resolution: {integrity: sha512-sF/8nlFmyTcxtoFmIsudNV03O0GS1nB/y1U8L0CM0xY4yfcDeL7KvqqvtEWOA3xW01LSZz5pbvf1UYrrt1nuxw==}
+  /sveltekit-superforms@2.10.6(@sveltejs/kit@2.5.4)(@types/json-schema@7.0.15)(esbuild-runner@2.2.2)(esbuild@0.20.2)(svelte@5.0.0-next.80):
+    resolution: {integrity: sha512-Gu3a13rrjLdJ8EgITqrVB7PnH1XprqZa26Y8H1YSplfgR8+Kuu1v+fSz21N3UCGNNN1BozSjLaUfouerD6WRxQ==}
     peerDependencies:
       '@sveltejs/kit': 1.x || 2.x
       svelte: 3.x || 4.x || >=5.0.0-next.51
@@ -2199,14 +2199,14 @@ packages:
       svelte: 5.0.0-next.80
       ts-deepmerge: 7.0.0
     optionalDependencies:
-      '@gcornut/valibot-json-schema': 0.0.25(@types/json-schema@7.0.15)(esbuild-runner@2.2.2)(esbuild@0.20.2)(valibot@0.29.0)
+      '@gcornut/valibot-json-schema': 0.0.26(@types/json-schema@7.0.15)(esbuild-runner@2.2.2)(esbuild@0.20.2)(valibot@0.30.0)
       '@sinclair/typebox': 0.32.15
       '@sodaru/yup-to-json-schema': 2.0.1
       '@vinejs/vine': 1.8.0
       arktype: 1.0.29-alpha
       joi: 17.12.2
       superstruct: 1.0.4
-      valibot: 0.29.0
+      valibot: 0.30.0
       yup: 1.4.0
       zod: 3.22.4
       zod-to-json-schema: 3.22.4(zod@3.22.4)
@@ -2355,8 +2355,8 @@ packages:
       '@fastify/busboy': 2.1.1
     dev: true
 
-  /valibot@0.29.0:
-    resolution: {integrity: sha512-JhZn08lwZPhAamOCfBwBkv/btQt4KeQhekULPH8crH053zUCLSOGEF2zKExu3bFf245tsj6J1dY0ysd/jUiMIQ==}
+  /valibot@0.30.0:
+    resolution: {integrity: sha512-5POBdbSkM+3nvJ6ZlyQHsggisfRtyT4tVTo1EIIShs6qCdXJnyWU5TJ68vr8iTg5zpOLjXLRiBqNx+9zwZz/rA==}
     requiresBuild: true
     dev: true
     optional: true
