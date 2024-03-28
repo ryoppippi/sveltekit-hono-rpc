@@ -21,15 +21,15 @@ importers:
   apps/hono:
     dependencies:
       hono:
-        specifier: ^4.1.3
-        version: 4.1.3
+        specifier: ^4.1.4
+        version: 4.1.5
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20240320.1
         version: 4.20240320.1
       '@hono/zod-validator':
         specifier: ^0.2.0
-        version: 0.2.0(hono@4.1.3)(zod@3.22.4)
+        version: 0.2.0(hono@4.1.5)(zod@3.22.4)
       wrangler:
         specifier: ^3.37.0
         version: 3.37.0(@cloudflare/workers-types@4.20240320.1)
@@ -616,13 +616,13 @@ packages:
     dev: true
     optional: true
 
-  /@hono/zod-validator@0.2.0(hono@4.1.3)(zod@3.22.4):
+  /@hono/zod-validator@0.2.0(hono@4.1.5)(zod@3.22.4):
     resolution: {integrity: sha512-PC7akbA/DCFY406BL3+ogjYb+7Fgfs/6XPvyURBYMczo0M7kYsTUMnF8hA9mez1RORNCWPqXuFGfKrkoUVPvrQ==}
     peerDependencies:
       hono: '>=3.9.0'
       zod: ^3.19.1
     dependencies:
-      hono: 4.1.3
+      hono: 4.1.5
       zod: 3.22.4
     dev: true
 
@@ -1339,8 +1339,8 @@ packages:
       function-bind: 1.1.2
     dev: true
 
-  /hono@4.1.3:
-    resolution: {integrity: sha512-V0I6qCw0gn2MA4LLtyXe6oD3/7ToeQf5Zv98o7uSuLuViQgWHJeYoYrZ4NbXhOtg4SaZjNJJm1+XuFB3LN+j6A==}
+  /hono@4.1.5:
+    resolution: {integrity: sha512-3ChJiIoeCxvkt6vnkxJagplrt1YZg3NyNob7ssVeK2PUqEINp4q1F94HzFnvY9QE8asVmbW5kkTDlyWylfg2vg==}
     engines: {node: '>=16.0.0'}
 
   /import-fresh@3.3.0:
