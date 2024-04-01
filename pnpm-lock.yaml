@@ -79,7 +79,7 @@ importers:
         specifier: ^0.3.37
         version: 0.3.37(svelte@5.0.0-next.87)(typescript@5.4.3)
       vite:
-        specifier: ^5.2.6
+        specifier: ^5.2.7
         version: 5.2.7
       zod:
         specifier: ^3.22.4
