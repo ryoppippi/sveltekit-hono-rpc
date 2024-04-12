@@ -67,7 +67,7 @@ importers:
         specifier: ^3.6.9
         version: 3.6.9(svelte@5.0.0-next.95)
       sveltekit-superforms:
-        specifier: ^2.12.3
+        specifier: ^2.12.4
         version: 2.12.4(@sveltejs/kit@2.5.5)(@types/json-schema@7.0.15)(esbuild-runner@2.2.2)(esbuild@0.20.2)(svelte@5.0.0-next.95)
       tslib:
         specifier: ^2.6.2
