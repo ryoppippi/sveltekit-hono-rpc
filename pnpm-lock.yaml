@@ -67,8 +67,8 @@ importers:
         specifier: ^3.6.9
         version: 3.6.9(postcss@8.4.38)(svelte@5.0.0-next.113)
       sveltekit-superforms:
-        specifier: ^2.12.5
-        version: 2.12.5(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@5.0.0-next.113)(vite@5.2.10(@types/node@20.12.7)))(svelte@5.0.0-next.113)(vite@5.2.10(@types/node@20.12.7)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.20.2))(esbuild@0.20.2)(svelte@5.0.0-next.113)
+        specifier: ^2.12.6
+        version: 2.12.6(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@5.0.0-next.113)(vite@5.2.10(@types/node@20.12.7)))(svelte@5.0.0-next.113)(vite@5.2.10(@types/node@20.12.7)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.20.2))(esbuild@0.20.2)(svelte@5.0.0-next.113)
       tslib:
         specifier: ^2.6.2
         version: 2.6.2
@@ -1194,8 +1194,8 @@ packages:
     resolution: {integrity: sha512-fr/lQyUOF0Xa3yyd2Ve7EswnlkoOQCgAcFfG5kH+IIBP1943+8zPI9boyrZqc8iowk5pPzjEH6MO0ySNHqIX2Q==}
     engines: {node: '>=18'}
 
-  sveltekit-superforms@2.12.5:
-    resolution: {integrity: sha512-p8qHNsMcPoB1mgTU8catzID8HJmxIK9ozRbGrv50Jk/XPotOjn5zTvW/stkVDBDL/tPLz0vfw+2PNbkkHCdhlw==}
+  sveltekit-superforms@2.12.6:
+    resolution: {integrity: sha512-qVA6HjD+WlPughk+YGGWXTY5lIvNP8JUoEK4TqzLhDkC8j6y0d2aB7ofgzqpkvY7nV77aNG3erP/qxr2DzBJEg==}
     peerDependencies:
       '@sveltejs/kit': 1.x || 2.x
       svelte: 3.x || 4.x || >=5.0.0-next.51
@@ -2362,7 +2362,7 @@ snapshots:
       magic-string: 0.30.10
       zimmerframe: 1.1.2
 
-  sveltekit-superforms@2.12.5(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@5.0.0-next.113)(vite@5.2.10(@types/node@20.12.7)))(svelte@5.0.0-next.113)(vite@5.2.10(@types/node@20.12.7)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.20.2))(esbuild@0.20.2)(svelte@5.0.0-next.113):
+  sveltekit-superforms@2.12.6(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@5.0.0-next.113)(vite@5.2.10(@types/node@20.12.7)))(svelte@5.0.0-next.113)(vite@5.2.10(@types/node@20.12.7)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.20.2))(esbuild@0.20.2)(svelte@5.0.0-next.113):
     dependencies:
       '@sveltejs/kit': 2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@5.0.0-next.113)(vite@5.2.10(@types/node@20.12.7)))(svelte@5.0.0-next.113)(vite@5.2.10(@types/node@20.12.7))
       devalue: 4.3.3
