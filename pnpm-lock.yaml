@@ -67,8 +67,8 @@ importers:
         specifier: ^3.8.0
         version: 3.8.0(postcss@8.4.38)(svelte@5.0.0-next.153)
       sveltekit-superforms:
-        specifier: ^2.14.0
-        version: 2.14.0(@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.153)(vite@5.2.13(@types/node@20.14.2)))(svelte@5.0.0-next.153)(vite@5.2.13(@types/node@20.14.2)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.20.2))(esbuild@0.20.2)(svelte@5.0.0-next.153)
+        specifier: ^2.15.1
+        version: 2.15.1(@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.153)(vite@5.2.13(@types/node@20.14.2)))(svelte@5.0.0-next.153)(vite@5.2.13(@types/node@20.14.2)))(svelte@5.0.0-next.153)
       tslib:
         specifier: ^2.6.3
         version: 2.6.3
@@ -91,11 +91,11 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@arktype/schema@0.1.7':
-    resolution: {integrity: sha512-xeaS/0EiuT5kUQGC9DqLv0vnjFpbEILmaBQF9CrLhamR0v8c+eUNM6z5u6DgzqPZbDFMmtfiCdikUTT1VueWXw==}
+  '@arktype/schema@0.1.13':
+    resolution: {integrity: sha512-qZjtCAKrnhsixDWsEGJtosWfi4bLpAg4OnnICVYTer/6v5hwlhsdYpYobTSJUc5eiBoI5Ai/kcNfYaQISshY2g==}
 
-  '@arktype/util@0.0.45':
-    resolution: {integrity: sha512-WPzoElBZK1NxYzT8PnoNsnulohgRU7PRKkJUoqeGvuFqP/Egv7tRNnvcJCE0MboHUnWaPTy/5Psjm/4iOvbWiw==}
+  '@arktype/util@0.0.48':
+    resolution: {integrity: sha512-U5FO5EUAJ4LoYtLSyAMmTf6CEVgslObfSQuua2zoK5Tv2FB3aESVQ3rdLfhuz+coRhlzlynbkmimyoQWwQT+aQ==}
 
   '@babel/runtime@7.24.7':
     resolution: {integrity: sha512-UwgBRMjJP+xv857DCngvqXI3Iq6J4v0wXmwc6sapg+zyhbwmQX67LUEFrkK5tbyJ30jGuG3ZvWpBiB9LCy1kWw==}
@@ -429,14 +429,9 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@gcornut/valibot-json-schema@0.0.27':
-    resolution: {integrity: sha512-xcMaUStVgQzPrK3d7PuLFbQ+3qSp6LzaLExAm52E3FKmUfjQa7Sw5cDK6Hfu/8WT0yfGsuSCuJ5uT1sosjR9Qg==}
+  '@gcornut/valibot-json-schema@0.31.0':
+    resolution: {integrity: sha512-3xGptCurm23e7nuPQkdrE5rEs1FeTPHhAUsBuwwqG4/YeZLwJOoYZv+fmsppUEfo5y9lzUwNQrNqLS/q7HMc7g==}
     hasBin: true
-    peerDependencies:
-      '@types/json-schema': '>= 7.0.14'
-      esbuild: '>= 0.18.20'
-      esbuild-runner: '>= 2.2.2'
-      valibot: '>= 0.21.0'
 
   '@hapi/hoek@9.3.0':
     resolution: {integrity: sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==}
@@ -664,8 +659,8 @@ packages:
   aria-query@5.3.0:
     resolution: {integrity: sha512-b0P0sZPKtyu8HkeRAfCq0IfURZK+SuwMjY1UXGBU27wpAiTwQAIlq56IbIO+ytk/JjS1fMR14ee5WBBfKi5J6A==}
 
-  arktype@2.0.0-dev.15:
-    resolution: {integrity: sha512-V8/jyfU/ISl9uSzTNZMgj/sYOI1QNxhVaqcS+spWamF/jx4eDFMqBVdhAGysJhKyLC+Qi2yNw5f1YQuaOMEeGw==}
+  arktype@2.0.0-dev.21:
+    resolution: {integrity: sha512-dgHCjb3FK4BGvG2LuXqgdWXstbFmiYowSy0jiKnyk4KVcMT5DyIJ9d1nbQM3ztiAL3hIPmPdkmpfxUqR+BoOBQ==}
 
   as-table@1.0.55:
     resolution: {integrity: sha512-xvsWESUJn0JN421Xb9MQw6AsMHRCUknCe0Wjlxvjud80mU4E6hQf1A6NzQKcYNmYw62MfzEtXc+badstZP3JpQ==}
@@ -1204,8 +1199,8 @@ packages:
     resolution: {integrity: sha512-ZbRnvO0UWXhE71Va5Rjg+nY4tbCUnqJFQC0VXHdqkHT/i5nqW8DPtw0rBlsFg4mq2uDQ8iOO/P7tR3OVXaSI7g==}
     engines: {node: '>=18'}
 
-  sveltekit-superforms@2.14.0:
-    resolution: {integrity: sha512-TRN+x2+ENCnvDw70U5HLfmGQGFi4kpevpWaPpQ06AB0Wf5qCYxshbZBofMAXb8KOyetw8dhWpj86AQRPNwhzDg==}
+  sveltekit-superforms@2.15.1:
+    resolution: {integrity: sha512-rLzcJTGEzt2oFC1fNYn+ddM25uoCawudHBU7qoLo5gp/JLMRNhtX9gbBMt8imMLo4VcB8339VtxBRcWiMV1faQ==}
     peerDependencies:
       '@sveltejs/kit': 1.x || 2.x
       svelte: 3.x || 4.x || >=5.0.0-next.51
@@ -1299,8 +1294,8 @@ packages:
   unenv-nightly@1.10.0-1717606461.a117952:
     resolution: {integrity: sha512-u3TfBX02WzbHTpaEfWEKwDijDSFAHcgXkayUZ+MVDrjhLFvgAJzFGTSTmwlEhwWi2exyRQey23ah9wELMM6etg==}
 
-  valibot@0.30.0:
-    resolution: {integrity: sha512-5POBdbSkM+3nvJ6ZlyQHsggisfRtyT4tVTo1EIIShs6qCdXJnyWU5TJ68vr8iTg5zpOLjXLRiBqNx+9zwZz/rA==}
+  valibot@0.31.1:
+    resolution: {integrity: sha512-2YYIhPrnVSz/gfT2/iXVTrSj92HwchCt9Cga/6hX4B26iCz9zkIsGTS0HjDYTZfTi1Un0X6aRvhBi1cfqs/i0Q==}
 
   validator@13.12.0:
     resolution: {integrity: sha512-c1Q0mCiPlgdTVVVIJIrBuxNicYE+t/7oKeI9MWLj3fh/uq2Pxh/3eeWbVZ4OcGW1TUf53At0njHw5SMdA3tmMg==}
@@ -1399,12 +1394,12 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@arktype/schema@0.1.7':
+  '@arktype/schema@0.1.13':
     dependencies:
-      '@arktype/util': 0.0.45
+      '@arktype/util': 0.0.48
     optional: true
 
-  '@arktype/util@0.0.45':
+  '@arktype/util@0.0.48':
     optional: true
 
   '@babel/runtime@7.24.7':
@@ -1587,12 +1582,13 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@gcornut/valibot-json-schema@0.0.27(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.20.2))(esbuild@0.20.2)(valibot@0.30.0)':
+  '@gcornut/valibot-json-schema@0.31.0':
     dependencies:
+      valibot: 0.31.1
+    optionalDependencies:
       '@types/json-schema': 7.0.15
       esbuild: 0.20.2
       esbuild-runner: 2.2.2(esbuild@0.20.2)
-      valibot: 0.30.0
     optional: true
 
   '@hapi/hoek@9.3.0':
@@ -1810,10 +1806,10 @@ snapshots:
     dependencies:
       dequal: 2.0.3
 
-  arktype@2.0.0-dev.15:
+  arktype@2.0.0-dev.21:
     dependencies:
-      '@arktype/schema': 0.1.7
-      '@arktype/util': 0.0.45
+      '@arktype/schema': 0.1.13
+      '@arktype/util': 0.0.48
     optional: true
 
   as-table@1.0.55:
@@ -2389,7 +2385,7 @@ snapshots:
       magic-string: 0.30.10
       zimmerframe: 1.1.2
 
-  sveltekit-superforms@2.14.0(@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.153)(vite@5.2.13(@types/node@20.14.2)))(svelte@5.0.0-next.153)(vite@5.2.13(@types/node@20.14.2)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.20.2))(esbuild@0.20.2)(svelte@5.0.0-next.153):
+  sveltekit-superforms@2.15.1(@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.153)(vite@5.2.13(@types/node@20.14.2)))(svelte@5.0.0-next.153)(vite@5.2.13(@types/node@20.14.2)))(svelte@5.0.0-next.153):
     dependencies:
       '@sveltejs/kit': 2.5.10(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.153)(vite@5.2.13(@types/node@20.14.2)))(svelte@5.0.0-next.153)(vite@5.2.13(@types/node@20.14.2))
       devalue: 5.0.0
@@ -2399,22 +2395,18 @@ snapshots:
       ts-deepmerge: 7.0.0
     optionalDependencies:
       '@exodus/schemasafe': 1.3.0
-      '@gcornut/valibot-json-schema': 0.0.27(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.20.2))(esbuild@0.20.2)(valibot@0.30.0)
+      '@gcornut/valibot-json-schema': 0.31.0
       '@sinclair/typebox': 0.32.31
       '@sodaru/yup-to-json-schema': 2.0.1
       '@vinejs/vine': 1.8.0
-      arktype: 2.0.0-dev.15
+      arktype: 2.0.0-dev.21
       joi: 17.13.1
       json-schema-to-ts: 3.1.0
       superstruct: 1.0.4
-      valibot: 0.30.0
+      valibot: 0.31.1
       yup: 1.4.0
       zod: 3.23.8
       zod-to-json-schema: 3.23.0(zod@3.23.8)
-    transitivePeerDependencies:
-      - '@types/json-schema'
-      - esbuild
-      - esbuild-runner
 
   tiny-case@1.0.3:
     optional: true
@@ -2500,7 +2492,7 @@ snapshots:
       pathe: 1.1.2
       ufo: 1.5.3
 
-  valibot@0.30.0:
+  valibot@0.31.1:
     optional: true
 
   validator@13.12.0:
