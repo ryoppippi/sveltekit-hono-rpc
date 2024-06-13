@@ -31,8 +31,8 @@ importers:
         specifier: ^0.2.2
         version: 0.2.2(hono@4.4.4)(zod@3.23.8)
       wrangler:
-        specifier: ^3.59.0
-        version: 3.60.0(@cloudflare/workers-types@4.20240605.0)
+        specifier: ^3.60.1
+        version: 3.60.2(@cloudflare/workers-types@4.20240605.0)
       zod:
         specifier: ^3.23.8
         version: 3.23.8
@@ -1347,10 +1347,9 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@3.60.0:
-    resolution: {integrity: sha512-8lW4E7VAhCVXy7AV7Vom2BsyjekIt15Aa8jnBLsfE2CxalzWQzx49BK25hOYhjHQT4GqBXeoNOZ43FrMQ+SUUA==}
+  wrangler@3.60.2:
+    resolution: {integrity: sha512-lGIuxzaVm8W0ddzwzwZtx3kL/0PUGMZfKBayUzcMq5wGk88aE9UA2lYeGF51EHVXX2yBbnw7Ltw2eXsx2ixNOQ==}
     engines: {node: '>=16.17.0'}
-    deprecated: bug affecting usage of `wrangler pages deploy` with > 1000 assets in wrangler@3.60.0, fixed in wrangler@3.60.1
     hasBin: true
     peerDependencies:
       '@cloudflare/workers-types': ^4.20240605.0
@@ -2528,7 +2527,7 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20240605.0
       '@cloudflare/workerd-windows-64': 1.20240605.0
 
-  wrangler@3.60.0(@cloudflare/workers-types@4.20240605.0):
+  wrangler@3.60.2(@cloudflare/workers-types@4.20240605.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.2
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
