@@ -21,15 +21,15 @@ importers:
   apps/hono:
     dependencies:
       hono:
-        specifier: ^4.4.4
-        version: 4.4.4
+        specifier: ^4.4.5
+        version: 4.4.6
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20240605.0
         version: 4.20240605.0
       '@hono/zod-validator':
         specifier: ^0.2.2
-        version: 0.2.2(hono@4.4.4)(zod@3.23.8)
+        version: 0.2.2(hono@4.4.6)(zod@3.23.8)
       wrangler:
         specifier: ^3.60.1
         version: 3.60.2(@cloudflare/workers-types@4.20240605.0)
@@ -845,8 +845,8 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  hono@4.4.4:
-    resolution: {integrity: sha512-zO5+4K8yf1iuKhBZhwmpZ/0LzPMr8Zt1RugEGM1xvOqgh9DyLb7tslOtoBks4bmm5bIcLtzLCXUpYpXOkwpABA==}
+  hono@4.4.6:
+    resolution: {integrity: sha512-XGRnoH8WONv60+PPvP9Sn067A9r/8JdHDJ5bgon0DVEHeR1cJPkWjv2aT+DBfMH9/mEkYa1+VEVFp1DT1lIwjw==}
     engines: {node: '>=16.0.0'}
 
   import-fresh@3.3.0:
@@ -1599,9 +1599,9 @@ snapshots:
       '@hapi/hoek': 9.3.0
     optional: true
 
-  '@hono/zod-validator@0.2.2(hono@4.4.4)(zod@3.23.8)':
+  '@hono/zod-validator@0.2.2(hono@4.4.6)(zod@3.23.8)':
     dependencies:
-      hono: 4.4.4
+      hono: 4.4.6
       zod: 3.23.8
 
   '@jridgewell/gen-mapping@0.3.5':
@@ -2022,7 +2022,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hono@4.4.4: {}
+  hono@4.4.6: {}
 
   import-fresh@3.3.0:
     dependencies:
