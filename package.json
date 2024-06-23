@@ -19,7 +19,7 @@
 		"yarn": "use pnpm please!"
 	},
 	"volta": {
-		"node": "20.14.0"
+		"node": "20.15.0"
 	},
 	"devDependencies": {
 		"prettier": "^3.3.2",
