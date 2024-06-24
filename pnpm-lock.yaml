@@ -73,11 +73,11 @@ importers:
         specifier: ^2.6.3
         version: 2.6.3
       typescript:
-        specifier: ^5.4.5
-        version: 5.4.5
+        specifier: ^5.5.2
+        version: 5.5.2
       typescript-svelte-plugin:
         specifier: ^0.3.39
-        version: 0.3.39(svelte@5.0.0-next.162)(typescript@5.4.5)
+        version: 0.3.39(svelte@5.0.0-next.162)(typescript@5.5.2)
       vite:
         specifier: ^5.3.1
         version: 5.3.1(@types/node@20.14.2)
@@ -1277,8 +1277,8 @@ packages:
   typescript-svelte-plugin@0.3.39:
     resolution: {integrity: sha512-7c6AAhoIIIGYmERtgeBfL40/nzG4ciPqbYXweRg+AvS8tG8q7kENLmaHK6BCnwmxATxxCTio02JTQZyZMP1XVg==}
 
-  typescript@5.4.5:
-    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+  typescript@5.5.2:
+    resolution: {integrity: sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2336,8 +2336,8 @@ snapshots:
       picocolors: 1.0.1
       sade: 1.8.1
       svelte: 5.0.0-next.162
-      svelte-preprocess: 5.1.4(postcss@8.4.38)(svelte@5.0.0-next.162)(typescript@5.4.5)
-      typescript: 5.4.5
+      svelte-preprocess: 5.1.4(postcss@8.4.38)(svelte@5.0.0-next.162)(typescript@5.5.2)
+      typescript: 5.5.2
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -2353,7 +2353,7 @@ snapshots:
     dependencies:
       svelte: 5.0.0-next.162
 
-  svelte-preprocess@5.1.4(postcss@8.4.38)(svelte@5.0.0-next.162)(typescript@5.4.5):
+  svelte-preprocess@5.1.4(postcss@8.4.38)(svelte@5.0.0-next.162)(typescript@5.5.2):
     dependencies:
       '@types/pug': 2.0.10
       detect-indent: 6.1.0
@@ -2363,14 +2363,14 @@ snapshots:
       svelte: 5.0.0-next.162
     optionalDependencies:
       postcss: 8.4.38
-      typescript: 5.4.5
+      typescript: 5.5.2
 
-  svelte2tsx@0.7.9(svelte@5.0.0-next.162)(typescript@5.4.5):
+  svelte2tsx@0.7.9(svelte@5.0.0-next.162)(typescript@5.5.2):
     dependencies:
       dedent-js: 1.0.1
       pascal-case: 3.1.2
       svelte: 5.0.0-next.162
-      typescript: 5.4.5
+      typescript: 5.5.2
 
   svelte@5.0.0-next.162:
     dependencies:
@@ -2468,15 +2468,15 @@ snapshots:
   type-fest@2.19.0:
     optional: true
 
-  typescript-svelte-plugin@0.3.39(svelte@5.0.0-next.162)(typescript@5.4.5):
+  typescript-svelte-plugin@0.3.39(svelte@5.0.0-next.162)(typescript@5.5.2):
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
-      svelte2tsx: 0.7.9(svelte@5.0.0-next.162)(typescript@5.4.5)
+      svelte2tsx: 0.7.9(svelte@5.0.0-next.162)(typescript@5.5.2)
     transitivePeerDependencies:
       - svelte
       - typescript
 
-  typescript@5.4.5: {}
+  typescript@5.5.2: {}
 
   ufo@1.5.3: {}
 
