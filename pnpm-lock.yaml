@@ -67,8 +67,8 @@ importers:
         specifier: ^3.8.2
         version: 3.8.4(postcss@8.4.38)(svelte@5.0.0-next.166)
       sveltekit-superforms:
-        specifier: ^2.15.1
-        version: 2.15.1(@sveltejs/kit@2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.166)(vite@5.3.1(@types/node@20.14.8)))(svelte@5.0.0-next.166)(vite@5.3.1(@types/node@20.14.8)))(svelte@5.0.0-next.166)
+        specifier: ^2.15.2
+        version: 2.15.2(@sveltejs/kit@2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.166)(vite@5.3.1(@types/node@20.14.8)))(svelte@5.0.0-next.166)(vite@5.3.1(@types/node@20.14.8)))(svelte@5.0.0-next.166)
       tslib:
         specifier: ^2.6.3
         version: 2.6.3
@@ -1151,8 +1151,8 @@ packages:
     resolution: {integrity: sha512-s1anY8eTprp42QyHGdbfIT7pO+gYgwnS6hkMmvd8ayW5krV9HLYjbQcVUb8/GyQSIlWtewvmZVZ58rpKjRmdTg==}
     engines: {node: '>=18'}
 
-  sveltekit-superforms@2.15.1:
-    resolution: {integrity: sha512-rLzcJTGEzt2oFC1fNYn+ddM25uoCawudHBU7qoLo5gp/JLMRNhtX9gbBMt8imMLo4VcB8339VtxBRcWiMV1faQ==}
+  sveltekit-superforms@2.15.2:
+    resolution: {integrity: sha512-8mraZXhTL43z2H7mqmkpfqMvIGmV9mtRabHIYM2B6I3ZmEvWESS9tQPhHFY8uIEFKL6oG6BP9Tvi/aP4QKdcyg==}
     peerDependencies:
       '@sveltejs/kit': 1.x || 2.x
       svelte: 3.x || 4.x || >=5.0.0-next.51
@@ -1248,6 +1248,9 @@ packages:
 
   valibot@0.31.1:
     resolution: {integrity: sha512-2YYIhPrnVSz/gfT2/iXVTrSj92HwchCt9Cga/6hX4B26iCz9zkIsGTS0HjDYTZfTi1Un0X6aRvhBi1cfqs/i0Q==}
+
+  valibot@0.35.0:
+    resolution: {integrity: sha512-+i2aCRkReTrd5KBN/dW2BrPOvFnU5LXTV2xjZnjnqUIO8YUx6P2+MgRrkwF2FhkexgyKq/NIZdPdknhHf5A/Ww==}
 
   validator@13.12.0:
     resolution: {integrity: sha512-c1Q0mCiPlgdTVVVIJIrBuxNicYE+t/7oKeI9MWLj3fh/uq2Pxh/3eeWbVZ4OcGW1TUf53At0njHw5SMdA3tmMg==}
@@ -2287,7 +2290,7 @@ snapshots:
       magic-string: 0.30.10
       zimmerframe: 1.1.2
 
-  sveltekit-superforms@2.15.1(@sveltejs/kit@2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.166)(vite@5.3.1(@types/node@20.14.8)))(svelte@5.0.0-next.166)(vite@5.3.1(@types/node@20.14.8)))(svelte@5.0.0-next.166):
+  sveltekit-superforms@2.15.2(@sveltejs/kit@2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.166)(vite@5.3.1(@types/node@20.14.8)))(svelte@5.0.0-next.166)(vite@5.3.1(@types/node@20.14.8)))(svelte@5.0.0-next.166):
     dependencies:
       '@sveltejs/kit': 2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.166)(vite@5.3.1(@types/node@20.14.8)))(svelte@5.0.0-next.166)(vite@5.3.1(@types/node@20.14.8))
       devalue: 5.0.0
@@ -2305,7 +2308,7 @@ snapshots:
       joi: 17.13.3
       json-schema-to-ts: 3.1.0
       superstruct: 1.0.4
-      valibot: 0.31.1
+      valibot: 0.35.0
       yup: 1.4.0
       zod: 3.23.8
       zod-to-json-schema: 3.23.1(zod@3.23.8)
@@ -2395,6 +2398,9 @@ snapshots:
       ufo: 1.5.3
 
   valibot@0.31.1:
+    optional: true
+
+  valibot@0.35.0:
     optional: true
 
   validator@13.12.0:

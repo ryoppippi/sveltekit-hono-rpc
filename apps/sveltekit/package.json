@@ -21,7 +21,7 @@
 		"prettier-plugin-svelte": "^3.2.5",
 		"svelte": "5.0.0-next.166",
 		"svelte-check": "^3.8.2",
-		"sveltekit-superforms": "^2.15.1",
+		"sveltekit-superforms": "^2.15.2",
 		"tslib": "^2.6.3",
 		"typescript": "^5.5.2",
 		"typescript-svelte-plugin": "^0.3.39",
