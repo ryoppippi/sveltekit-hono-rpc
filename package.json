@@ -24,7 +24,7 @@
 	"devDependencies": {
 		"prettier": "^3.3.2",
 		"prettier-plugin-svelte": "^3.2.5",
-		"turbo": "^1.13.4"
+		"turbo": "^2.0.6"
 	},
 	"workspaces": [
 		"apps/*",
