@@ -67,8 +67,8 @@ importers:
         specifier: ^3.8.4
         version: 3.8.4(postcss@8.4.39)(svelte@5.0.0-next.179)
       sveltekit-superforms:
-        specifier: ^2.15.2
-        version: 2.15.2(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.179)(vite@5.3.3(@types/node@20.14.10)))(svelte@5.0.0-next.179)(vite@5.3.3(@types/node@20.14.10)))(svelte@5.0.0-next.179)
+        specifier: ^2.16.0
+        version: 2.16.0(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.179)(vite@5.3.3(@types/node@20.14.10)))(svelte@5.0.0-next.179)(vite@5.3.3(@types/node@20.14.10)))(svelte@5.0.0-next.179)
       tslib:
         specifier: ^2.6.3
         version: 2.6.3
@@ -1233,8 +1233,8 @@ packages:
     resolution: {integrity: sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==}
     engines: {node: '>=8'}
 
-  superstruct@1.0.4:
-    resolution: {integrity: sha512-7JpaAoX2NGyoFlI9NBh66BQXGONc+uE+MRS5i2iOBKuS4e+ccgMDjATgZldkah+33DakBxDHiss9kvUcGAO8UQ==}
+  superstruct@2.0.2:
+    resolution: {integrity: sha512-uV+TFRZdXsqXTL2pRvujROjdZQ4RAlBUS5BTh9IGm+jTqQntYThciG/qu57Gs69yjnVUSqdxF9YLmSnpupBW9A==}
     engines: {node: '>=14.0.0'}
 
   supports-preserve-symlinks-flag@1.0.0:
@@ -1300,8 +1300,8 @@ packages:
     resolution: {integrity: sha512-z2x/RcctbQ95vNt52p/+fCJzyU2RVmK03V6thiFT/gblNHw/qONb6hZXfxfCgIsCWjm8thDcgDcmRClZj/Ging==}
     engines: {node: '>=18'}
 
-  sveltekit-superforms@2.15.2:
-    resolution: {integrity: sha512-8mraZXhTL43z2H7mqmkpfqMvIGmV9mtRabHIYM2B6I3ZmEvWESS9tQPhHFY8uIEFKL6oG6BP9Tvi/aP4QKdcyg==}
+  sveltekit-superforms@2.16.0:
+    resolution: {integrity: sha512-t5aZyMCXyahgvn7VAJ7l9S+wAv9YyMAZHYQ6gcGVZ6ecr4/DMMD2r3ajGCj1h1dWaMQ3w5zVw+SqHSAkbHsWVQ==}
     peerDependencies:
       '@sveltejs/kit': 1.x || 2.x
       svelte: 3.x || 4.x || >=5.0.0-next.51
@@ -2475,7 +2475,7 @@ snapshots:
     dependencies:
       min-indent: 1.0.1
 
-  superstruct@1.0.4:
+  superstruct@2.0.2:
     optional: true
 
   supports-preserve-symlinks-flag@1.0.0: {}
@@ -2539,7 +2539,7 @@ snapshots:
       magic-string: 0.30.10
       zimmerframe: 1.1.2
 
-  sveltekit-superforms@2.15.2(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.179)(vite@5.3.3(@types/node@20.14.10)))(svelte@5.0.0-next.179)(vite@5.3.3(@types/node@20.14.10)))(svelte@5.0.0-next.179):
+  sveltekit-superforms@2.16.0(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.179)(vite@5.3.3(@types/node@20.14.10)))(svelte@5.0.0-next.179)(vite@5.3.3(@types/node@20.14.10)))(svelte@5.0.0-next.179):
     dependencies:
       '@sveltejs/kit': 2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.179)(vite@5.3.3(@types/node@20.14.10)))(svelte@5.0.0-next.179)(vite@5.3.3(@types/node@20.14.10))
       devalue: 5.0.0
@@ -2556,7 +2556,7 @@ snapshots:
       arktype: 2.0.0-dev.21
       joi: 17.13.3
       json-schema-to-ts: 3.1.0
-      superstruct: 1.0.4
+      superstruct: 2.0.2
       valibot: 0.35.0
       yup: 1.4.0
       zod: 3.23.8
