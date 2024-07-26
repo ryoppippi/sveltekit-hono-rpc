@@ -25,14 +25,14 @@ importers:
         version: 4.5.1
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^4.20240718.0
-        version: 4.20240718.0
+        specifier: ^4.20240722.0
+        version: 4.20240725.0
       '@hono/zod-validator':
         specifier: ^0.2.2
         version: 0.2.2(hono@4.5.1)(zod@3.23.8)
       wrangler:
         specifier: ^3.65.1
-        version: 3.65.1(@cloudflare/workers-types@4.20240718.0)
+        version: 3.65.1(@cloudflare/workers-types@4.20240725.0)
       zod:
         specifier: ^3.23.8
         version: 3.23.8
@@ -40,8 +40,8 @@ importers:
   apps/sveltekit:
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^4.20240718.0
-        version: 4.20240718.0
+        specifier: ^4.20240722.0
+        version: 4.20240725.0
       '@sveltehono/hono':
         specifier: workspace:^
         version: link:../hono
@@ -135,8 +135,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@cloudflare/workers-types@4.20240718.0':
-    resolution: {integrity: sha512-7RqxXIM9HyhjfZ9ztXjITuc7mL0w4s+zXgypqKmMuvuObC3DgXutJ3bOYbQ+Ss5QbywrzWSNMlmGdL/ldg/yZg==}
+  '@cloudflare/workers-types@4.20240725.0':
+    resolution: {integrity: sha512-L6T/Bg50zm9IIACQVQ0CdVcQL+2nLkRXdPz6BsXF3SlzgjyWR5ndVctAbfr/HLV7aKYxWnnEZsIORsTWb+FssA==}
 
   '@cspotcode/source-map-support@0.8.1':
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -1531,7 +1531,7 @@ snapshots:
   '@cloudflare/workerd-windows-64@1.20240718.0':
     optional: true
 
-  '@cloudflare/workers-types@4.20240718.0': {}
+  '@cloudflare/workers-types@4.20240725.0': {}
 
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
@@ -2675,7 +2675,7 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20240718.0
       '@cloudflare/workerd-windows-64': 1.20240718.0
 
-  wrangler@3.65.1(@cloudflare/workers-types@4.20240718.0):
+  wrangler@3.65.1(@cloudflare/workers-types@4.20240725.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
@@ -2694,7 +2694,7 @@ snapshots:
       unenv: unenv-nightly@1.10.0-1717606461.a117952
       xxhash-wasm: 1.0.2
     optionalDependencies:
-      '@cloudflare/workers-types': 4.20240718.0
+      '@cloudflare/workers-types': 4.20240725.0
       fsevents: 2.3.3
     transitivePeerDependencies:
       - bufferutil
