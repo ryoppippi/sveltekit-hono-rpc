@@ -67,8 +67,8 @@ importers:
         specifier: ^3.8.5
         version: 3.8.5(postcss@8.4.41)(svelte@5.0.0-next.220)
       sveltekit-superforms:
-        specifier: ^2.16.1
-        version: 2.16.1(@sveltejs/kit@2.5.22(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.220)(vite@5.4.0(@types/node@22.2.0)))(svelte@5.0.0-next.220)(vite@5.4.0(@types/node@22.2.0)))(svelte@5.0.0-next.220)
+        specifier: ^2.17.0
+        version: 2.17.0(@sveltejs/kit@2.5.22(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.220)(vite@5.4.0(@types/node@22.2.0)))(svelte@5.0.0-next.220)(vite@5.4.0(@types/node@22.2.0)))(svelte@5.0.0-next.220)
       tslib:
         specifier: ^2.6.3
         version: 2.6.3
@@ -1304,8 +1304,8 @@ packages:
     resolution: {integrity: sha512-ETTqNWJXr2RNnKjDZpHmVghBeD8lfFy1OO1BHQvNQXwmwu1rGIGre75vSVsLW35FYRXb/tJ7G225w9vrhY9eAg==}
     engines: {node: '>=18'}
 
-  sveltekit-superforms@2.16.1:
-    resolution: {integrity: sha512-RNBdN43xge/ADmc3s7+pfdnRGuZ9gZiqpX6VKAQCnCI+ICc5rrPv5idYbx4iuY1Ia0lRMAq1hP0x2oHaPjB+Kg==}
+  sveltekit-superforms@2.17.0:
+    resolution: {integrity: sha512-QrX8pkcmE0XoeVU42zMhsah4FoDrgtPc/4cZEr38rDlgU+DE0xNc5J0E7z1456sUJNbFjaB0+HZwwAkX0vYqaA==}
     peerDependencies:
       '@sveltejs/kit': 1.x || 2.x
       svelte: 3.x || 4.x || >=5.0.0-next.51
@@ -2546,7 +2546,7 @@ snapshots:
       magic-string: 0.30.11
       zimmerframe: 1.1.2
 
-  sveltekit-superforms@2.16.1(@sveltejs/kit@2.5.22(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.220)(vite@5.4.0(@types/node@22.2.0)))(svelte@5.0.0-next.220)(vite@5.4.0(@types/node@22.2.0)))(svelte@5.0.0-next.220):
+  sveltekit-superforms@2.17.0(@sveltejs/kit@2.5.22(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.220)(vite@5.4.0(@types/node@22.2.0)))(svelte@5.0.0-next.220)(vite@5.4.0(@types/node@22.2.0)))(svelte@5.0.0-next.220):
     dependencies:
       '@sveltejs/kit': 2.5.22(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.220)(vite@5.4.0(@types/node@22.2.0)))(svelte@5.0.0-next.220)(vite@5.4.0(@types/node@22.2.0))
       devalue: 5.0.0
