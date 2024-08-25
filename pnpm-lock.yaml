@@ -31,7 +31,7 @@ importers:
         specifier: ^0.2.2
         version: 0.2.2(hono@4.5.8)(zod@3.23.8)
       wrangler:
-        specifier: ^3.72.1
+        specifier: ^3.72.2
         version: 3.72.2(@cloudflare/workers-types@4.20240821.1)
       zod:
         specifier: ^3.23.8
