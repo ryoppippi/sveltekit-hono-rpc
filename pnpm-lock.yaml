@@ -70,7 +70,7 @@ importers:
         specifier: ^2.17.0
         version: 2.17.0(@sveltejs/kit@2.5.24(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0-next.237)(vite@5.4.2(@types/node@22.5.0)))(svelte@5.0.0-next.237)(vite@5.4.2(@types/node@22.5.0)))(svelte@5.0.0-next.237)
       tslib:
-        specifier: ^2.6.3
+        specifier: ^2.7.0
         version: 2.7.0
       typescript:
         specifier: ^5.5.4
