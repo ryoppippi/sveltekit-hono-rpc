@@ -64,7 +64,7 @@ importers:
         specifier: 5.0.0-next.243
         version: 5.0.0-next.243
       svelte-check:
-        specifier: ^4.0.0
+        specifier: ^4.0.1
         version: 4.0.1(svelte@5.0.0-next.243)(typescript@5.5.4)
       sveltekit-superforms:
         specifier: ^2.17.0
