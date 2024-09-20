@@ -46,8 +46,8 @@ importers:
         specifier: workspace:^
         version: link:../hono
       '@sveltejs/adapter-auto':
-        specifier: ^3.2.4
-        version: 3.2.4(@sveltejs/kit@2.5.27(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0-next.248)(vite@5.4.6(@types/node@22.5.5)))(svelte@5.0.0-next.248)(vite@5.4.6(@types/node@22.5.5)))
+        specifier: ^3.2.5
+        version: 3.2.5(@sveltejs/kit@2.5.27(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0-next.248)(vite@5.4.6(@types/node@22.5.5)))(svelte@5.0.0-next.248)(vite@5.4.6(@types/node@22.5.5)))
       '@sveltejs/kit':
         specifier: ^2.5.27
         version: 2.5.27(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0-next.248)(vite@5.4.6(@types/node@22.5.5)))(svelte@5.0.0-next.248)(vite@5.4.6(@types/node@22.5.5))
@@ -716,8 +716,8 @@ packages:
   '@sodaru/yup-to-json-schema@2.0.1':
     resolution: {integrity: sha512-lWb0Wiz8KZ9ip/dY1eUqt7fhTPmL24p6Hmv5Fd9pzlzAdw/YNcWZr+tiCT4oZ4Zyxzi9+1X4zv82o7jYvcFxYA==}
 
-  '@sveltejs/adapter-auto@3.2.4':
-    resolution: {integrity: sha512-a64AKYbfTUrVwU0xslzv1Jf3M8bj0IwhptaXmhgIkjXspBXhD0od9JiItQHchijpLMGdEDcYBlvqySkEawv6mQ==}
+  '@sveltejs/adapter-auto@3.2.5':
+    resolution: {integrity: sha512-27LR+uKccZ62lgq4N/hvyU2G+hTP9fxWEAfnZcl70HnyfAjMSsGk1z/SjAPXNCD1mVJIE7IFu3TQ8cQ/UH3c0A==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -1793,7 +1793,7 @@ snapshots:
   '@sodaru/yup-to-json-schema@2.0.1':
     optional: true
 
-  '@sveltejs/adapter-auto@3.2.4(@sveltejs/kit@2.5.27(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0-next.248)(vite@5.4.6(@types/node@22.5.5)))(svelte@5.0.0-next.248)(vite@5.4.6(@types/node@22.5.5)))':
+  '@sveltejs/adapter-auto@3.2.5(@sveltejs/kit@2.5.27(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0-next.248)(vite@5.4.6(@types/node@22.5.5)))(svelte@5.0.0-next.248)(vite@5.4.6(@types/node@22.5.5)))':
     dependencies:
       '@sveltejs/kit': 2.5.27(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0-next.248)(vite@5.4.6(@types/node@22.5.5)))(svelte@5.0.0-next.248)(vite@5.4.6(@types/node@22.5.5))
       import-meta-resolve: 4.1.0
