@@ -49,7 +49,7 @@ importers:
         specifier: ^3.2.5
         version: 3.2.5(@sveltejs/kit@2.6.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0-next.260)(vite@5.4.8(@types/node@22.7.4)))(svelte@5.0.0-next.260)(vite@5.4.8(@types/node@22.7.4)))
       '@sveltejs/kit':
-        specifier: ^2.6.0
+        specifier: ^2.6.1
         version: 2.6.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0-next.260)(vite@5.4.8(@types/node@22.7.4)))(svelte@5.0.0-next.260)(vite@5.4.8(@types/node@22.7.4))
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.1.2
