@@ -46,7 +46,7 @@ importers:
         specifier: workspace:^
         version: link:../hono
       '@sveltejs/adapter-auto':
-        specifier: ^3.3.0
+        specifier: ^3.3.1
         version: 3.3.1(@sveltejs/kit@2.7.2(@sveltejs/vite-plugin-svelte@4.0.0(svelte@5.1.2)(vite@5.4.10(@types/node@22.7.7)))(svelte@5.1.2)(vite@5.4.10(@types/node@22.7.7)))
       '@sveltejs/kit':
         specifier: ^2.7.2
