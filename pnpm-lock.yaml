@@ -64,7 +64,7 @@ importers:
         specifier: 5.1.12
         version: 5.1.12
       svelte-check:
-        specifier: ^4.0.5
+        specifier: ^4.0.6
         version: 4.0.6(svelte@5.1.12)(typescript@5.6.3)
       sveltekit-superforms:
         specifier: ^2.20.0
