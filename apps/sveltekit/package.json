@@ -15,7 +15,7 @@
 		"@cloudflare/workers-types": "^4.20241112.0",
 		"@sveltehono/hono": "workspace:^",
 		"@sveltejs/adapter-auto": "^3.3.1",
-		"@sveltejs/kit": "^2.8.3",
+		"@sveltejs/kit": "^2.8.4",
 		"@sveltejs/vite-plugin-svelte": "^4.0.2",
 		"prettier": "^3.3.3",
 		"prettier-plugin-svelte": "^3.3.2",
