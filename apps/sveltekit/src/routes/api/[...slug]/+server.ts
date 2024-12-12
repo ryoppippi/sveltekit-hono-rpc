@@ -4,9 +4,6 @@ const { app } = createApp({
 	basePath: '/api'
 });
 
-export const GET = async ({ request, platform }) => {
+export const fallback = async ({ request, platform }) => {
 	return await app.fetch(request, platform?.env, platform?.context);
 };
-
-export const POST = GET;
-export const PUT = GET;
