@@ -16,7 +16,7 @@
 		"@sveltehono/hono": "workspace:^",
 		"@sveltejs/adapter-auto": "^3.3.1",
 		"@sveltejs/kit": "^2.12.1",
-		"@sveltejs/vite-plugin-svelte": "^4.0.3",
+		"@sveltejs/vite-plugin-svelte": "^4.0.4",
 		"prettier": "^3.4.2",
 		"prettier-plugin-svelte": "^3.3.2",
 		"svelte": "5.14.4",
