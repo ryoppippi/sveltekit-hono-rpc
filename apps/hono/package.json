@@ -10,7 +10,7 @@
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20241218.0",
 		"@hono/zod-validator": "^0.4.2",
-		"wrangler": "^3.96.0",
+		"wrangler": "^3.98.0",
 		"zod": "^3.24.1"
 	}
 }
