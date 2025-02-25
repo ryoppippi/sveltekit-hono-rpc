@@ -22,7 +22,7 @@
 		"node": "22.14.0"
 	},
 	"devDependencies": {
-		"prettier": "^3.5.1",
+		"prettier": "^3.5.2",
 		"prettier-plugin-svelte": "^3.3.3",
 		"turbo": "^1.13.4"
 	},
