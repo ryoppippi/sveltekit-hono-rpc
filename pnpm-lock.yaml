@@ -47,13 +47,13 @@ importers:
         version: link:../hono
       '@sveltejs/adapter-auto':
         specifier: ^4.0.0
-        version: 4.0.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.1))(svelte@5.23.0)(vite@6.2.1))
+        version: 4.0.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.2))(svelte@5.23.0)(vite@6.2.2))
       '@sveltejs/kit':
         specifier: ^2.19.0
-        version: 2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.1))(svelte@5.23.0)(vite@6.2.1)
+        version: 2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.2))(svelte@5.23.0)(vite@6.2.2)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.0.3
-        version: 5.0.3(svelte@5.23.0)(vite@6.2.1)
+        version: 5.0.3(svelte@5.23.0)(vite@6.2.2)
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
@@ -68,7 +68,7 @@ importers:
         version: 4.1.5(svelte@5.23.0)(typescript@5.8.2)
       sveltekit-superforms:
         specifier: ^2.24.0
-        version: 2.24.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.1))(svelte@5.23.0)(vite@6.2.1))(@types/json-schema@7.0.15)(svelte@5.23.0)(typescript@5.8.2)
+        version: 2.24.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.2))(svelte@5.23.0)(vite@6.2.2))(@types/json-schema@7.0.15)(svelte@5.23.0)(typescript@5.8.2)
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -79,8 +79,8 @@ importers:
         specifier: ^0.3.46
         version: 0.3.46(svelte@5.23.0)(typescript@5.8.2)
       vite:
-        specifier: ^6.2.1
-        version: 6.2.1
+        specifier: ^6.2.2
+        version: 6.2.2
       zod:
         specifier: ^3.24.2
         version: 3.24.2
@@ -1241,8 +1241,8 @@ packages:
     resolution: {integrity: sha512-c1Q0mCiPlgdTVVVIJIrBuxNicYE+t/7oKeI9MWLj3fh/uq2Pxh/3eeWbVZ4OcGW1TUf53At0njHw5SMdA3tmMg==}
     engines: {node: '>= 0.10'}
 
-  vite@6.2.1:
-    resolution: {integrity: sha512-n2GnqDb6XPhlt9B8olZPrgMD/es/Nd1RdChF6CBD/fHW6pUyUTt2sQW2fPRX5GiD9XEa6+8A6A4f2vT6pSsE7Q==}
+  vite@6.2.2:
+    resolution: {integrity: sha512-yW7PeMM+LkDzc7CgJuRLMW2Jz0FxMOsVJ8Lv3gpgW9WLcb9cTW+121UEr1hvmfR7w3SegR5ItvYyzVz1vxNJgQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -1749,14 +1749,14 @@ snapshots:
     dependencies:
       acorn: 8.14.1
 
-  '@sveltejs/adapter-auto@4.0.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.1))(svelte@5.23.0)(vite@6.2.1))':
+  '@sveltejs/adapter-auto@4.0.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.2))(svelte@5.23.0)(vite@6.2.2))':
     dependencies:
-      '@sveltejs/kit': 2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.1))(svelte@5.23.0)(vite@6.2.1)
+      '@sveltejs/kit': 2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.2))(svelte@5.23.0)(vite@6.2.2)
       import-meta-resolve: 4.1.0
 
-  '@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.1))(svelte@5.23.0)(vite@6.2.1)':
+  '@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.2))(svelte@5.23.0)(vite@6.2.2)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.23.0)(vite@6.2.1)
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.23.0)(vite@6.2.2)
       '@types/cookie': 0.6.0
       cookie: 0.6.0
       devalue: 5.1.1
@@ -1769,27 +1769,27 @@ snapshots:
       set-cookie-parser: 2.7.1
       sirv: 3.0.1
       svelte: 5.23.0
-      vite: 6.2.1
+      vite: 6.2.2
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.1))(svelte@5.23.0)(vite@6.2.1)':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.2))(svelte@5.23.0)(vite@6.2.2)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.23.0)(vite@6.2.1)
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.23.0)(vite@6.2.2)
       debug: 4.4.0
       svelte: 5.23.0
-      vite: 6.2.1
+      vite: 6.2.2
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.1)':
+  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.2)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.1))(svelte@5.23.0)(vite@6.2.1)
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.2))(svelte@5.23.0)(vite@6.2.2)
       debug: 4.4.0
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.17
       svelte: 5.23.0
-      vite: 6.2.1
-      vitefu: 1.0.6(vite@6.2.1)
+      vite: 6.2.2
+      vitefu: 1.0.6(vite@6.2.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -2263,9 +2263,9 @@ snapshots:
       magic-string: 0.30.17
       zimmerframe: 1.1.2
 
-  sveltekit-superforms@2.24.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.1))(svelte@5.23.0)(vite@6.2.1))(@types/json-schema@7.0.15)(svelte@5.23.0)(typescript@5.8.2):
+  sveltekit-superforms@2.24.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.2))(svelte@5.23.0)(vite@6.2.2))(@types/json-schema@7.0.15)(svelte@5.23.0)(typescript@5.8.2):
     dependencies:
-      '@sveltejs/kit': 2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.1))(svelte@5.23.0)(vite@6.2.1)
+      '@sveltejs/kit': 2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.2))(svelte@5.23.0)(vite@6.2.2)
       devalue: 5.1.1
       memoize-weak: 1.0.2
       svelte: 5.23.0
@@ -2373,7 +2373,7 @@ snapshots:
   validator@13.12.0:
     optional: true
 
-  vite@6.2.1:
+  vite@6.2.2:
     dependencies:
       esbuild: 0.25.1
       postcss: 8.5.3
@@ -2381,9 +2381,9 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitefu@1.0.6(vite@6.2.1):
+  vitefu@1.0.6(vite@6.2.2):
     optionalDependencies:
-      vite: 6.2.1
+      vite: 6.2.2
 
   workerd@1.20250310.0:
     optionalDependencies:
