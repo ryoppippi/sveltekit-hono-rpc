@@ -67,7 +67,7 @@ importers:
         specifier: ^4.1.5
         version: 4.1.5(svelte@5.25.7)(typescript@5.8.3)
       sveltekit-superforms:
-        specifier: ^2.24.0
+        specifier: ^2.24.1
         version: 2.24.1(@sveltejs/kit@2.20.4(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.7)(vite@6.2.5))(svelte@5.25.7)(vite@6.2.5))(@types/json-schema@7.0.15)(svelte@5.25.7)(typescript@5.8.3)
       tslib:
         specifier: ^2.8.1
