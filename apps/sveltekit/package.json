@@ -12,7 +12,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "^4.20250414.0",
+		"@cloudflare/workers-types": "^4.20250415.0",
 		"@sveltehono/hono": "workspace:^",
 		"@sveltejs/adapter-auto": "^6.0.0",
 		"@sveltejs/kit": "^2.20.5",
