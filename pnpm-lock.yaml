@@ -25,7 +25,7 @@ importers:
         version: 4.7.7
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^4.20250423.0
+        specifier: ^4.20250424.0
         version: 4.20250425.0
       '@hono/zod-validator':
         specifier: ^0.4.3
@@ -40,7 +40,7 @@ importers:
   apps/sveltekit:
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^4.20250423.0
+        specifier: ^4.20250424.0
         version: 4.20250425.0
       '@sveltehono/hono':
         specifier: workspace:^
