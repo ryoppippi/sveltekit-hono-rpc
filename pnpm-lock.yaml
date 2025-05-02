@@ -67,7 +67,7 @@ importers:
         specifier: ^4.1.6
         version: 4.1.6(picomatch@4.0.2)(svelte@5.28.2)(typescript@5.8.3)
       sveltekit-superforms:
-        specifier: ^2.24.1
+        specifier: ^2.25.0
         version: 2.25.0(@sveltejs/kit@2.20.7(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.28.2)(vite@6.3.4))(svelte@5.28.2)(vite@6.3.4))(@types/json-schema@7.0.15)(svelte@5.28.2)(typescript@5.8.3)
       tslib:
         specifier: ^2.8.1
