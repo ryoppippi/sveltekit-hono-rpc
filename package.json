@@ -7,16 +7,13 @@
 		"sync": "turbo sync",
 		"lint": "prettier --check . && turbo run lint",
 		"test": "turbo test",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"preinstall": "npx only-allow pnpm"
 	},
 	"keywords": [],
 	"author": "",
 	"private": true,
 	"packageManager": "pnpm@10.11.0",
-	"engines": {
-		"npm": "use pnpm please!",
-		"yarn": "use pnpm please!"
-	},
 	"volta": {
 		"node": "22.15.1"
 	},
