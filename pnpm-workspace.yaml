@@ -1,3 +1,9 @@
 packages:
-  - 'packages/**'
-  - 'apps/**'
+  - packages/**
+  - apps/**
+engineStrict: true
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
+  - workerd
+useNodeVersion: 24.0.2
