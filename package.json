@@ -7,8 +7,7 @@
 		"sync": "turbo sync",
 		"lint": "prettier --check . && turbo run lint",
 		"test": "turbo test",
-		"format": "prettier --write .",
-		"prepare": "git config --local core.hooksPath .githooks || echo 'Can not set git hooks'"
+		"format": "prettier --write ."
 	},
 	"keywords": [],
 	"author": "",
