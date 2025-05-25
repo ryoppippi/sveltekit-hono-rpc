@@ -34,7 +34,7 @@ importers:
         specifier: ^4.16.0
         version: 4.16.1(@cloudflare/workers-types@4.20250522.0)
       zod:
-        specifier: ^3.25.17
+        specifier: ^3.25.20
         version: 3.25.23
 
   apps/sveltekit:
@@ -82,7 +82,7 @@ importers:
         specifier: ^6.3.5
         version: 6.3.5
       zod:
-        specifier: ^3.25.17
+        specifier: ^3.25.20
         version: 3.25.23
 
 packages:
