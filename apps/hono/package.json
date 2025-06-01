@@ -8,7 +8,7 @@
 		"hono": "^4.7.10"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "^4.20250528.0",
+		"@cloudflare/workers-types": "^4.20250529.0",
 		"@hono/zod-validator": "^0.6.0",
 		"wrangler": "^4.17.0",
 		"zod": "^3.25.34"
