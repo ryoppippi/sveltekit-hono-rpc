@@ -29,13 +29,13 @@ importers:
         version: 4.20250531.0
       '@hono/zod-validator':
         specifier: ^0.7.0
-        version: 0.7.0(hono@4.7.10)(zod@3.25.41)
+        version: 0.7.0(hono@4.7.10)(zod@3.25.48)
       wrangler:
         specifier: ^4.18.0
         version: 4.18.0(@cloudflare/workers-types@4.20250531.0)
       zod:
-        specifier: ^3.25.41
-        version: 3.25.41
+        specifier: ^3.25.42
+        version: 3.25.48
 
   apps/sveltekit:
     devDependencies:
@@ -82,8 +82,8 @@ importers:
         specifier: ^6.3.5
         version: 6.3.5
       zod:
-        specifier: ^3.25.41
-        version: 3.25.41
+        specifier: ^3.25.42
+        version: 3.25.48
 
 packages:
 
@@ -1185,8 +1185,8 @@ packages:
   zod@3.22.3:
     resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
 
-  zod@3.25.41:
-    resolution: {integrity: sha512-8+sDJTGtCYIDBhdqDygp0ffj8kzziRKqAJPhpYObbElJ+3TRe/mnlnwH+/OMa3kKhueS4Drm5UMW00/u1p07zA==}
+  zod@3.25.48:
+    resolution: {integrity: sha512-0X1mz8FtgEIvaxGjdIImYpZEaZMrund9pGXm3M6vM7Reba0e2eI71KPjSCGXBfwKDPwPoywf6waUKc3/tFvX2Q==}
 
 snapshots:
 
@@ -1339,10 +1339,10 @@ snapshots:
       '@hapi/hoek': 9.3.0
     optional: true
 
-  '@hono/zod-validator@0.7.0(hono@4.7.10)(zod@3.25.41)':
+  '@hono/zod-validator@0.7.0(hono@4.7.10)(zod@3.25.48)':
     dependencies:
       hono: 4.7.10
-      zod: 3.25.41
+      zod: 3.25.48
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
@@ -2026,8 +2026,8 @@ snapshots:
       superstruct: 2.0.2
       valibot: 1.0.0-rc.3(typescript@5.8.3)
       yup: 1.6.1
-      zod: 3.25.41
-      zod-to-json-schema: 3.24.5(zod@3.25.41)
+      zod: 3.25.48
+      zod-to-json-schema: 3.24.5(zod@3.25.48)
     transitivePeerDependencies:
       - '@types/json-schema'
       - typescript
@@ -2178,11 +2178,11 @@ snapshots:
 
   zimmerframe@1.1.2: {}
 
-  zod-to-json-schema@3.24.5(zod@3.25.41):
+  zod-to-json-schema@3.24.5(zod@3.25.48):
     dependencies:
-      zod: 3.25.41
+      zod: 3.25.48
     optional: true
 
   zod@3.22.3: {}
 
-  zod@3.25.41: {}
+  zod@3.25.48: {}
