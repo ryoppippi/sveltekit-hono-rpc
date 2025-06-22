@@ -24,7 +24,7 @@
 		"sveltekit-superforms": "^2.27.0",
 		"tslib": "^2.8.1",
 		"typescript": "^5.8.3",
-		"typescript-svelte-plugin": "^0.3.47",
+		"typescript-svelte-plugin": "^0.3.48",
 		"vite": "^6.3.5",
 		"zod": "^3.25.67"
 	},
