@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       prettier:
-        specifier: ^3.6.0
+        specifier: ^3.6.1
         version: 3.6.1
       prettier-plugin-svelte:
         specifier: ^3.4.0
@@ -55,7 +55,7 @@ importers:
         specifier: ^5.1.0
         version: 5.1.0(svelte@5.34.7)(vite@6.3.5)
       prettier:
-        specifier: ^3.6.0
+        specifier: ^3.6.1
         version: 3.6.1
       prettier-plugin-svelte:
         specifier: ^3.4.0
