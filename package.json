@@ -15,7 +15,7 @@
 	"private": true,
 	"packageManager": "pnpm@10.12.3",
 	"devDependencies": {
-		"prettier": "^3.6.0",
+		"prettier": "^3.6.1",
 		"prettier-plugin-svelte": "^3.4.0",
 		"turbo": "^1.13.4"
 	},
