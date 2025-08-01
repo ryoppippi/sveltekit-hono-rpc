@@ -11,6 +11,6 @@
 		"@cloudflare/workers-types": "^4.20250726.0",
 		"@hono/zod-validator": "^0.7.2",
 		"wrangler": "^4.24.3",
-		"zod": "^4.0.11"
+		"zod": "^4.0.13"
 	}
 }
