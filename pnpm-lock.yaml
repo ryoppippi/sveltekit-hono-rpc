@@ -21,15 +21,15 @@ importers:
   apps/hono:
     dependencies:
       hono:
-        specifier: ^4.8.10
-        version: 4.8.10
+        specifier: ^4.8.12
+        version: 4.8.12
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20250802.0
         version: 4.20250802.0
       '@hono/zod-validator':
         specifier: ^0.7.2
-        version: 0.7.2(hono@4.8.10)(zod@4.0.14)
+        version: 0.7.2(hono@4.8.12)(zod@4.0.14)
       wrangler:
         specifier: ^4.24.3
         version: 4.24.3(@cloudflare/workers-types@4.20250802.0)
@@ -966,8 +966,8 @@ packages:
   glob-to-regexp@0.4.1:
     resolution: {integrity: sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==}
 
-  hono@4.8.10:
-    resolution: {integrity: sha512-DRMYbR3aFk6YET1FCSAFbgF2cWYTz5j0YAFYPECx9fmrbKBDAYnWU+YCgRTpOaatxMYN6e68U/2IG39zRP4W/A==}
+  hono@4.8.12:
+    resolution: {integrity: sha512-MQSKk1Mg7b74k8l+A025LfysnLtXDKkE4pLaSsYRQC5iy85lgZnuyeQ1Wynair9mmECzoLu+FtJtqNZSoogBDQ==}
     engines: {node: '>=16.9.0'}
 
   is-arrayish@0.3.2:
@@ -1586,9 +1586,9 @@ snapshots:
       '@hapi/hoek': 9.3.0
     optional: true
 
-  '@hono/zod-validator@0.7.2(hono@4.8.10)(zod@4.0.14)':
+  '@hono/zod-validator@0.7.2(hono@4.8.12)(zod@4.0.14)':
     dependencies:
-      hono: 4.8.10
+      hono: 4.8.12
       zod: 4.0.14
 
   '@img/sharp-darwin-arm64@0.33.5':
@@ -2045,7 +2045,7 @@ snapshots:
 
   glob-to-regexp@0.4.1: {}
 
-  hono@4.8.10: {}
+  hono@4.8.12: {}
 
   is-arrayish@0.3.2: {}
 
