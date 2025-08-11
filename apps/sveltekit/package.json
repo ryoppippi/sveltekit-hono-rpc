@@ -14,7 +14,7 @@
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20250807.0",
 		"@sveltehono/hono": "workspace:^",
-		"@sveltejs/adapter-auto": "^6.0.1",
+		"@sveltejs/adapter-auto": "^6.0.2",
 		"@sveltejs/kit": "^2.27.1",
 		"@sveltejs/vite-plugin-svelte": "^5.1.1",
 		"prettier": "^3.6.2",
