@@ -49,7 +49,7 @@ importers:
         specifier: ^6.1.0
         version: 6.1.0(@sveltejs/kit@2.36.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.38.2)(vite@6.3.5))(svelte@5.38.2)(vite@6.3.5))
       '@sveltejs/kit':
-        specifier: ^2.33.0
+        specifier: ^2.34.0
         version: 2.36.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.38.2)(vite@6.3.5))(svelte@5.38.2)(vite@6.3.5)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.1.1
