@@ -29,13 +29,13 @@ importers:
         version: 4.20250823.0
       '@hono/zod-validator':
         specifier: ^0.7.2
-        version: 0.7.2(hono@4.9.4)(zod@4.1.3)
+        version: 0.7.2(hono@4.9.4)(zod@4.1.5)
       wrangler:
         specifier: ^4.24.3
         version: 4.24.3(@cloudflare/workers-types@4.20250823.0)
       zod:
-        specifier: ^4.1.1
-        version: 4.1.3
+        specifier: ^4.1.5
+        version: 4.1.5
 
   apps/sveltekit:
     devDependencies:
@@ -82,8 +82,8 @@ importers:
         specifier: ^6.3.5
         version: 6.3.5
       zod:
-        specifier: ^4.1.1
-        version: 4.1.3
+        specifier: ^4.1.5
+        version: 4.1.5
 
 packages:
 
@@ -1361,8 +1361,8 @@ packages:
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
-  zod@4.1.3:
-    resolution: {integrity: sha512-1neef4bMce1hNTrxvHVKxWjKfGDn0oAli3Wy1Uwb7TRO1+wEwoZUZNP1NXIEESybOBiFnBOhI6a4m6tCLE8dog==}
+  zod@4.1.5:
+    resolution: {integrity: sha512-rcUUZqlLJgBC33IT3PNMgsCq6TzLQEG/Ei/KTCU0PedSWRMAXoOUN+4t/0H+Q8bdnLPdqUYnvboJT0bn/229qg==}
 
 snapshots:
 
@@ -1587,10 +1587,10 @@ snapshots:
       '@hapi/hoek': 9.3.0
     optional: true
 
-  '@hono/zod-validator@0.7.2(hono@4.9.4)(zod@4.1.3)':
+  '@hono/zod-validator@0.7.2(hono@4.9.4)(zod@4.1.5)':
     dependencies:
       hono: 4.9.4
-      zod: 4.1.3
+      zod: 4.1.5
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
@@ -2482,4 +2482,4 @@ snapshots:
   zod@3.25.76:
     optional: true
 
-  zod@4.1.3: {}
+  zod@4.1.5: {}
